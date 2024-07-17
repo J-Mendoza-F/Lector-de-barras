@@ -1,0 +1,6 @@
+task main() {
+     SetSensorColorFull(IN_3);
+     OnFwd(OUT_BC, 50);
+     Wait(2000);
+     Off(OUT_BC);
+}
